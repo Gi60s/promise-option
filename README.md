@@ -1,6 +1,6 @@
 # promise-option
 
-Take a function that accepts a callback as it's last parameter and makes it so that you can use the callback paradigm or the promise paradigm on the function.
+Take a function that accepts a callback as it's last parameter and makes it so that you can use the callback paradigm or the promise paradigm on that function.
 
 ## Installation
 

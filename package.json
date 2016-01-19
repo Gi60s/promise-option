@@ -1,7 +1,7 @@
 {
   "name": "promise-option",
-  "version": "1.0.0",
-  "description": "Take a function that accepts a callback as it's last parameter and make it so that the callback is now optional, returning a promise if the callback is not provided.",
+  "version": "1.0.1",
+  "description": "Take a function that accepts a callback as it's last parameter and makes it so that you can use the callback paradigm or the promise paradigm on that function.",
   "main": "index.js",
   "directories": {
     "test": "tests"
