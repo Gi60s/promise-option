@@ -45,3 +45,10 @@ readFile('./file.txt', 'utf8')
 - **fnEnclosed** - This required parameter is the function to wrap.
 
 **Returns** a function that can be called in place of the provided callback. This new function can be called using the callback paradigm or the promise paradigm.
+
+### Callbacks vs Promises
+
+**TL;DR** - For **high performance** use callbacks, for **complex asynchronous data flow** use promises.
+
+There are a variety of pros and cons for why you would use a callback over a promise and vice versa, but the biggest factors in my opinion come down to what your highest priority is. If your priority is very high performance then stick with callbacks. If you have a complex interweave of multiple asynchronous functions that you are trying to manage the flow of data between then use promises to simplify the
+asynchronous data flow.
